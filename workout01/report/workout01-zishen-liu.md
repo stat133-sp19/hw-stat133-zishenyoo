@@ -51,7 +51,7 @@ Narrative
 Shooting Analysis of Five Golden State Legendary Warriors
 ---------------------------------------------------------
 
-<img src="../images/GSW.jpg" width="50%" style="display: block; margin: auto;" />
+<img src="../images/GSW1.jpg" width="50%" style="display: block; margin: auto;" />
 
 Who is the best basketball Team in National Basketball Association (NBA)? If you ask this question in the Bay Area, the answer you will most likely hear is the Golden State Warriors. As a member of the league's Western Conference Pacific Division, the Golden State Warriors(GSW) is a prominent American professional basketball team based in Oakland, California and plays their home games at the Oracle Arena. Founded in 1946 in Philadelphia, the Warriors relocated to the San Francisco Bay Area in 1962 and took the city's name, before changing its geographic moniker to Golden State in 1971.
 

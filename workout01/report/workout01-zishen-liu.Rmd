@@ -40,7 +40,7 @@ allshots <- x %>%
 
 ## Shooting Analysis of Five Golden State Legendary Warriors
 ```{r out.width='50%', echo = FALSE, fig.align='center'}
-knitr::include_graphics('../images/GSW.jpg')
+knitr::include_graphics('../images/GSW1.jpg')
 ```
 
 Who is the best basketball Team in National Basketball Association (NBA)? 
