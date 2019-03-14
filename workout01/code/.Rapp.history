@@ -1,0 +1,5 @@
+iguodala <- read.csv("../data/andre-iguodala.csv", stringsAsFactors = FALSE)#
+green <- read.csv("../data/graymond-green.csv", stringsAsFactors = FALSE)#
+durant <- read.csv("../data/kevin-duran.csv", stringsAsFactors = FALSE)#
+thompson<- read.csv("../data/klay-thompson.csv", stringsAsFactors = FALSE)#
+curry <- read.csv("../data/stephen-curry.csv", stringsAsFactors = FALSE)
