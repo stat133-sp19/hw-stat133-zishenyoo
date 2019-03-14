@@ -39,12 +39,14 @@ allshots <- x %>%
 # Narrative
 
 ## Shooting Analysis of Five Golden State Legendary Warriors
-```{r out.width='50%', echo = FALSE, fig.align='center'}
-knitr::include_graphics('../images/GSW1.jpg')
-```
+
 
 Who is the best basketball Team in National Basketball Association (NBA)? 
 If you ask this question in the Bay Area, the answer you will most likely hear is the Golden State Warriors. As a member of the league's Western Conference Pacific Division, the Golden State Warriors(GSW) is a prominent American professional basketball team based in Oakland, California and plays their home games at the Oracle Arena. Founded in 1946 in Philadelphia, the Warriors relocated to the San Francisco Bay Area in 1962 and took the city's name, before changing its geographic moniker to Golden State in 1971. 
+
+```{r out.width='50%', echo = FALSE, fig.align='center'}
+knitr::include_graphics('../images/GSW1.jpg')
+```
 
 Despite of the history of Golden State Warriors, the team definitley reached its golden era in 2016. If witnessing the 2016 season of GSW is already a huge honor for the general public, players who play for the Golden State Warriors at that season must be extraodinary. Among these amazing players, five players are considered to be lengendary.They are Andre Iguodala, Kevin Durant, Stephen Curry, Klay Thompson and Draymond Green. However, among these five, who is relatively the worst? If you ask this question to the people on the street, you might hear all kind of answers. This following analysis takes account only the shooting datas and it try to answer the following question: If we only look at the shooting records, who will be the worst? 
 
