@@ -1,7 +1,7 @@
 # workout01
 
  - `team_name`: The name of a team.
- - `game_date`: The date of the game
+ - `game_date`: The date of the game.
  - `season`:the season when basketball is played. season: a period of the year marked by special events or activities in some field
  - `period`: an NBA game is divided in 4 periods of 12 mins each. For example, a value for period = 1 refers to the first period (the first 12 mins of the game).
  - `minutes_remaining`:the amount of time in minutes that remained to be played in a given period.
