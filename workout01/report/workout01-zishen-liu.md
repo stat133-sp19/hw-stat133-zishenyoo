@@ -51,9 +51,8 @@ Narrative
 Shooting Analysis of Five Golden State Legendary Warriors
 ---------------------------------------------------------
 
-<p align="center">
-<img src="../images/GSW.jpg" style="width:50.0%" />
-</p>
+<img src="../images/GSW.jpg" width="50%" style="display: block; margin: auto;" />
+
 Who is the best basketball Team in National Basketball Association (NBA)? If you ask this question in the Bay Area, the answer you will most likely hear is the Golden State Warriors. As a member of the league's Western Conference Pacific Division, the Golden State Warriors(GSW) is a prominent American professional basketball team based in Oakland, California and plays their home games at the Oracle Arena. Founded in 1946 in Philadelphia, the Warriors relocated to the San Francisco Bay Area in 1962 and took the city's name, before changing its geographic moniker to Golden State in 1971.
 
 Despite of the history of Golden State Warriors, the team definitley reached its golden era in 2016. If witnessing the 2016 season of GSW is already a huge honor for the general public, players who play for the Golden State Warriors at that season must be extraodinary. Among these amazing players, five players are considered to be lengendary.They are Andre Iguodala, Kevin Durant, Stephen Curry, Klay Thompson and Draymond Green. However, among these five, who is relatively the worst? If you ask this question to the people on the street, you might hear all kind of answers. This following analysis takes account only the shooting datas and it try to answer the following question: If we only look at the shooting records, who will be the worst?
@@ -92,16 +91,12 @@ The following table summarized their performances on two points shots:
 | Klay Thompson  |  640  |   329|        51.4|
 | Draymond Green |  346  |   171|        49.4|
 
-Draymond Green has a 49.4% effective percetage, but he still has the worst effectiveness among all five. Is that really the case that Draymond Green is the worst player? Let's look at where they made the shot!
-<p align="center">
-<img src="../images/gsw-shot-charts.png" style="width:50.0%" />
-</p>
+Draymond Green has a 49.4% effective percetage, but he still has the worst effectiveness among all five. Is that really the case that Draymond Green is the worst player? Let's look at where they made the shot! <img src="../images/gsw-shot-charts.png" width="80%" style="display: block; margin: auto;" />
+
 From the graph above, we can see that Andre Iguodala’s high shooting percentage can be explained by the fact that most of his two-point shots are right next to the rim. He generally scores layups and dunks rather than deep midrange two-point shots. Layups and dunks are high percentage shots. Hence, it is highly possible for him to get the highest two-point shooting on the team. The fact that he generally only takes these shots also explains his low volume of shooting because it is really rare to have the chance to be close to the rim. Draymond Green’s shooting chart also looks very similar to Iguodala’s in the sense that most of his two-pointers generally come from layups or dunks. However, his shooting place is more spread than Andre's. He took more two-point shots than Andre.
 
 However, Kevin Durant, Klay Thompson, and Steph Curry all shoot across the court and at various locations. They take a lot of shots every game, which possibly could lower their percentage of making the shot. However, these players are such good shooters. They can take more difficult shots without sacrificing shooting efficiency. Despite their high volume, all of them are among the league leaders in shooting efficiency. The fact that all three of them shoot the ball so well from both the two-point and three-point range means that defenders can never leave any of them unguarded for even a second. Hence, from above analysis, they are definitely better than the other two.
 
 Though we know which three are the better ones, it is still difficult for us to figure out who is the worst player. If we only look at the shooting data, from the above data and analysis, we could potentially say that Draymond seems to be the worst one, because he has the worst shooting effectiveness. This conclusion only comes from the shooting records, and did not have an overall evaluations on the players. For example, considering Draymond's role is more on the defensive end, Draymond is actually excusable for his shooting effectiveness. Players might also have different physical conditions, ages, or some other factors could be considered. Though by only looking at the shooting data, Draymond is relatively worse than others, the contribution and efforts of every players should not be neglected and despised. They are all good players and they will definitely become better ones in the future. Let's end our analysis with Draymond Green's big smile.
 
-<p align="center">
-<img src="../images/green.jpg" style="width:50.0%" />
-</p>
+<img src="../images/green.jpg" width="40%" style="display: block; margin: auto;" />
