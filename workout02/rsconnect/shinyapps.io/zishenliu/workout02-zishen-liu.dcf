@@ -5,6 +5,8 @@ account: zishenliu
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 866648
-bundleId: 2013569
+bundleId: 2019739
 url: https://zishenliu.shinyapps.io/workout02-zishen-liu/
-when: 1555360318.88555
+when: 1555539328.34884
+asMultiple: FALSE
+asStatic: FALSE
