@@ -1,0 +1,61 @@
+---
+title: "Getting Started with Binomial"
+author: "Zishen Liu"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to binomial}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, echo = FALSE, message = FALSE}
+knitr::opts_chunk$set(collapse = T, comment = "#>")
+library(binomial)
+```
+
+
+## Binomial Distribution
+
+The package `"binomial"` is an implementation to find various properties and probabilities of the binomial distribution. It also provides the option of visualizing the distribution and listing out the summary statistics.
+
+
+## Basic Binomial Related Functions
+
+The package provides many ready to use functions including `"bin_choose(n, k)"`, `"bin_probability(sucess, trials, prob)"`, `"bin_mean(trials, prob)"`, `"bin_variance(trials, prob)"`, `"bin_mode(trials, prob)"`, `"bin_skewness(trials, prob)"`, `"bin_kurtosis(trials, prob)"`. Some of these are shown as examples:
+
+```{r}
+bin_choose(5, 3)
+bin_probability(1:3, 5, 0.2)
+bin_mean(10, 0.3)
+```
+
+For invalid values, the functions will output an error.
+
+
+
+## Creating Binomial Distributions
+
+The package allows the user to create binomial distributions and binomial cumulative distributions. For each, there is the option of visualizing the distribution:
+
+```{r}
+dis1 <- bin_distribution(trials = 10, prob = 0.5)
+plot(dis1)
+dis2 <- bin_cumulative(trials = 10, prob = 0.5)
+plot(dis2)
+```
+
+## Summary Statistics
+
+You can create a `"binvar"` object to get summary statistics of a particular binomial distribution:
+
+```{r}
+bin1 <- bin_variable(5, 0.4)
+bin1
+```
+
+```{r}
+binsum1 <- summary(bin1)
+binsum1
+```
+
