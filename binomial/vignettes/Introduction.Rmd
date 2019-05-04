@@ -17,12 +17,34 @@ library(binomial)
 
 ## Binomial Distribution
 
-The package `"binomial"` is an implementation to find various properties and probabilities of the binomial distribution. It also provides the option of visualizing the distribution and listing out the summary statistics.
+The package `"binomial"` is an implementation to find different properties and probabilities of the binomial distribution. It also provides the option of visualizing the distribution and listing out the summary statistics.
 
+One major formual that we used is the following:
+
+$$Pr(X = k) = \binom{n}{k}p^k(1-p)^{n-k}$$
+
+* *n* is the number of fixed trials ($n \geq 0$)
+* *p* is the probability of success on each trial ($0 \leq p \leq 1$)
+* *1-p* is the probability of failure on each trial 
+* *k* is the number of successes out of n trials ($0 \leq k \leq n$)
+* $\binom{n}{k}$ is the number of combinations in which *k* successes can occur in *n* trials
 
 ## Basic Binomial Related Functions
 
-The package provides many ready to use functions including `"bin_choose(n, k)"`, `"bin_probability(sucess, trials, prob)"`, `"bin_mean(trials, prob)"`, `"bin_variance(trials, prob)"`, `"bin_mode(trials, prob)"`, `"bin_skewness(trials, prob)"`, `"bin_kurtosis(trials, prob)"`. Some of these are shown as examples:
+The package provides many ready to use functions including `"bin_choose(n, k)"`, `"bin_probability(sucess, trials, prob)"`, `"bin_mean(trials, prob)"`, `"bin_variance(trials, prob)"`, `"bin_mode(trials, prob)"`, `"bin_skewness(trials, prob)"`, `"bin_kurtosis(trials, prob)"`. 
+
+* `bin_choose()` finds the number of ways to choose k items from n 
+* `bin_probability()` finds the probability of a particular number of successes 
+* `bin_distribution()` creates a `"bindis"` and `"data.frame"` object that can be visualized with `plot()`
+* `bin_cumulative()`creates a `"bincum"` and  `"data.frame"` object that can be visualized with `plot()`
+* `bin_variable()` creates a `"binvar"` object that can be summarized with `summary()`
+* `bin_mean()` finds the mean
+* `bin_variance()` finds the variance
+* `bin_mode()` finds the mode
+* `bin_skewness()` finds the skewness
+* `bin_kurtosis()` finds the kurtosis
+
+Some of these are shown as examples:
 
 ```{r}
 bin_choose(5, 3)
@@ -47,7 +69,7 @@ plot(dis2)
 
 ## Summary Statistics
 
-You can create a `"binvar"` object to get summary statistics of a particular binomial distribution:
+You can also get summary statistics of a particular binomial distribution:
 
 ```{r}
 bin1 <- bin_variable(5, 0.4)

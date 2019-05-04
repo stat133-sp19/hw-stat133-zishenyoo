@@ -37,6 +37,99 @@ devtools::install_github("hw-stat133-zishenyoo/binomial")
 devtools::install_github("hw-stat133-zishenyoo/binomial", build_vignettes = TRUE)
 ```
 
+Usage
+-----
+
+``` r
+library(binomial)
+```
+
+### Binomial Functions:
+
+``` r
+# number of combinations of getting 2 successes in 5 trials
+bin_choose(n = 5, k = 2)
+#> [1] 10
+
+
+# probability of getting 2 successes in 5 trials
+bin_probability(success = 2, trials = 5, prob = 0.5)
+#> [1] 0.3125
+
+
+# object of class "bindis"
+dis1 <- bin_distribution(trials = 5, prob = 0.5)
+
+
+# histogram of binomial distribution
+plot(dis1)
+```
+
+![](README-unnamed-chunk-3-1.png)
+
+``` r
+
+# object of class "bincum"
+dis2 <- bin_cumulative(trials = 5, prob = 0.5)
+
+plot(dis2)
+```
+
+![](README-unnamed-chunk-3-2.png)
+
+``` r
+
+bin1 <- bin_variable(trials = 10, p = 0.3)
+
+summary(bin1)
+#> "Summary Binomial"
+#> 
+#> Parameters
+#> - number of trials: 10 
+#> 
+#> - prob of success : 0.3 
+#> 
+#> Measures
+#> 
+#> - mean    : 3 
+#> 
+#> - variance: 2.1 
+#> 
+#> - mode    : 3 
+#> 
+#> - skewness: 0.2760262 
+#> 
+#> - kurtosis: -0.1238095
+```
+
+Summary Measures:
+
+``` r
+#> trials: 10
+#> probability of success: 0.3 
+
+bin_mean(10, 0.3)
+#> [1] 3
+
+
+bin_variance(10, 0.3)
+#> [1] 2.1
+
+bin_mode(10, 0.3)
+#> [1] 3
+
+bin_mode(7, 0.5)
+#> [1] 4
+
+
+bin_skewness(10, 0.3)
+#> [1] 0.2760262
+
+
+bin_kurtosis(10, 0.3)
+#> [1] -0.1238095
+```
+
 Author Information
 ------------------
 
